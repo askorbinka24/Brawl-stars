@@ -1,2 +1,2 @@
 # Brawl-stars
-Projektas
+Ernestas, Laurynas, Erik
