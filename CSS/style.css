@@ -37,6 +37,7 @@ main{
     width: 1440px;
     height: 196px;
     background-color:#002529;
+
 }
 
 .myteam{
@@ -45,6 +46,14 @@ main{
     position: relative;
     top: 65px;
     left: 140px;
+}
+
+.myteam2{
+    width: 170px;
+    height: 40px;
+    position: relative;
+    bottom: 50px;
+    left: 200px;
 }
 
 nav{
@@ -62,11 +71,12 @@ nav{
     position: relative;
     left: 890px;
     top: 50px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .home{
     text-decoration: none;
-    color: inherit;
+    color: white;
     position: relative;
     top: 50px;
     left: 200px;
@@ -74,10 +84,29 @@ nav{
 
 .about{
     text-decoration: none;
-    color: inherit;
+    color: white;
     position: relative;
     top: 50px;
     left: 250px;
+}
+
+
+.home2{
+    text-decoration: none;
+    color: inherit;
+position: relative;
+    top: 100px;
+    left: 200px;
+color: white;
+}
+
+.about2{
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    color: white;
 }
 
 .best-talent{
@@ -87,7 +116,7 @@ nav{
     font-weight: 700;
     line-height: 100px;
     position: relative;
-    top: 240px;
+    bottom: 240px;
     left: 150px;
 }
 
@@ -390,4 +419,90 @@ nav{
     position: absolute;
     bottom: 175px;
     z-index: 1;
+}
+
+
+.button{
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid #002529;
+ background-color: #F67E7E;
+    color: white;
+    position: relative;
+    left: 1000px;
+bottom: 180px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+
+.symbol{
+    position: relative;
+    bottom: -56px;
+
+}
+
+
+.tut{
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    position: relative;
+    top: -100px;
+    left: 250px;
+    color: #002529;
+}
+.button1{
+    position: relative;
+    top: 10px;
+}
+
+
+.copyright{
+    color: white;
+text-align: right;
+font-size: 15px;
+font-weight: 600;
+font-style: normal;
+line-height: 25px; /* 166.667% */
+width: 286px;
+opacity: 0.6;
+position: relative;
+left: 1000px;
+bottom: 50px;
+}
+
+.button:hover{
+    border: 2px solid  #012F34;
+    color: white;
+    background: #012F34;
+}
+
+.media{
+position:relative;
+
+
+}
+
+.contacts{
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; /* 166.667% */
+    width: 445px;
+    height: 100px;
+    opacity: 0.6;
+    position: relative;
+    left: 550px;
+    top: 80px;
+}
+
+.media:hover{
+
 }
