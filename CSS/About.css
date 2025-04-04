@@ -1,0 +1,129 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flexbox;
+    justify-items: center;
+  }  
+
+header{
+    width: 1440px;
+    height: 517px;
+    background-color:#014E56;
+}
+
+.myteam{
+    width: 160px;
+    height: 40px;
+    position: relative;
+    top: 65px;
+    left: 140px;
+}
+
+.home{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+
+.about{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 250px;
+}
+
+.about:hover{
+    color: #F67E7E;
+}
+
+.home:hover{
+    color: #F67E7E;
+}
+
+.contact-us{
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    background-color:#014e56;
+    color: white;
+    position: relative;
+    left: 890px;
+    top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-us:hover{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    position: relative;
+    top: 100px;
+    left: 135px;
+}
+
+.red-oval{
+    position: relative;
+    bottom: 33px;
+    left: 1340px;
+}
+
+.line2{
+    width: 50px;
+    height: 4px;
+    background: #F67E7E;
+    position: relative;
+    bottom: 45px;
+    left: 500px;
+}
+
+.header-text{
+    color: white;
+    position: relative;
+    left: 500px;
+}
+
+
+
+
+
+
+
+
+main{
+    width: 1440px;
+    height: 1002px;
+    background-color:#004047;
+}
+
+.main-text{
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+}
+
+.box{
+    width: 350px;
+    height: 253px;
+    background-color: #012F34;
+}
