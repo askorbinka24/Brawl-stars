@@ -104,3 +104,26 @@ main{
     height: 1002px;
     background-color:#004047;
 }
+
+.main-text{
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+}
+
+.box{
+    width: 350px;
+    height: 253px;
+    background-color: #012F34;
+}
