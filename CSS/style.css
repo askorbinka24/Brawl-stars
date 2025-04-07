@@ -1,7 +1,10 @@
 body {
     font-family: 'Poppins', sans-serif;
-    display: flexbox;
-    justify-items: center;
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+     overflow-x: hidden;
+     height: 100%;
   }  
 
 h6{
@@ -11,31 +14,29 @@ h6{
 
 header{
     background-color:#014e56;
-    width: 1440px;
+    width: 100vi;
     height: 700px;
 }
 
 section{
-    width: 1440px;
+    width: 100vi;
     height: 684px;
     background-color:#012f34;
 }
 
 main{
-    width: 1440px;
+    width: 100vi;
     height: 745px;
     background-color:#004047;
 }
 
 .red-line{
-    width: 1440px;
-    height: 200px;
+    width: 100vi;
     background-color:#f67e7e;
 }
 
 .dark-line{
-    width: 1440px;
-    height: 196px;
+    width: 100vi;
     background-color:#002529;
 
 }
@@ -57,6 +58,7 @@ main{
 }
 
 nav{
+    width: 100vi;
     position: absolute;
     color: white;
 }
@@ -95,8 +97,7 @@ nav{
     text-decoration: none;
     color: inherit;
 position: relative;
-    top: 100px;
-    left: 200px;
+
 color: white;
 }
 
@@ -484,9 +485,12 @@ bottom: 50px;
 }
 
 .media{
-position:relative;
-
-
+    position: relative;
+    right: -1200px;
+    bottom: 170px;
+    color: cyan;
+    height: 100px;
+    width: 100px;
 }
 
 .contacts{
@@ -501,8 +505,4 @@ position:relative;
     position: relative;
     left: 550px;
     top: 80px;
-}
-
-.media:hover{
-
 }
