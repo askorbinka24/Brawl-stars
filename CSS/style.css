@@ -116,8 +116,8 @@ color: white;
     font-weight: 700;
     line-height: 100px;
     position: relative;
-    bottom: 240px;
-    left: 150px;
+    top: 260px;
+    left: 160px;
 }
 
 .talent{
