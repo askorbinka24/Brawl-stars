@@ -351,6 +351,11 @@ color: white;
     right: 170px;
 }
 
+.section-content{
+    position: relative;
+    left: 150px;
+}
+
 .spec2{
     color: white;
     position: relative;
@@ -428,13 +433,14 @@ color: white;
 
 .group20{
     position: relative;
-    left: 1240px;
+    top: 5px;
+    left: 1700px;
 }
 
 .decoration3{
     position: absolute;
-    bottom: 175px;
-    right: 100px;
+    bottom: 170px;
+    left: -100px;
     z-index: 1;
 }
 
@@ -447,8 +453,8 @@ color: white;
  background-color: #F67E7E;
     color: white;
     position: relative;
-    left: 1000px;
-bottom: 180px;
+    left: 1500px;
+bottom: 120px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color: black;
@@ -457,7 +463,7 @@ bottom: 180px;
 
 .symbol{
     position: relative;
-    bottom: -56px;
+    top: 159px;
 
 }
 
@@ -470,7 +476,7 @@ bottom: 180px;
     font-weight: 700;
     line-height: 100px;
     position: relative;
-    top: -100px;
+    top: -40px;
     left: 250px;
     color: #002529;
 }
@@ -522,7 +528,7 @@ top: 70px;
     opacity: 0.6;
     position: relative;
     left: 550px;
-    top: 80px;
+    top: 110px;
 }
 
 
