@@ -531,6 +531,17 @@ top: 70px;
     top: 110px;
 }
 
+.fa-square-facebook{
+    letter-spacing: 15px;
+}
+
+.fa-pinterest{
+    letter-spacing: 15px;
+}
+
+.fa-twitter{
+    letter-spacing: 15px;
+}
 
 .fa-square-facebook:hover,.fa-pinterest:hover,.fa-twitter:hover{
     color:#F67E7E;
