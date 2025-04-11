@@ -50,8 +50,8 @@ main{
 }
 
 .myteam2{
-    width: 170px;
-    height: 40px;
+    width: 220px;
+    height: 55px;
     position: relative;
     bottom: 50px;
     left: 200px;
@@ -97,18 +97,28 @@ nav{
     text-decoration: none;
     color: inherit;
 position: relative;
-bottom: 200px;
-
+bottom: 120px;
+left: 190px;
 color: white;
+font-size: 22px;
+}
+
+.home2:hover{
+    color: #F67E7E;
 }
 
 .about2{
     text-decoration: none;
     color: inherit;
     position: relative;
-    left: 200px;
-    bottom: 200px;
+    left: 230px;
+    bottom: 120px;
     color: white;
+    font-size: 22px;
+}
+
+.about2:hover{
+    color: #F67E7E;
 }
 
 .best-talent{
