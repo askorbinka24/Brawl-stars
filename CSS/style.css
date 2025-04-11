@@ -557,3 +557,50 @@ top: 70px;
     color:#F67E7E;
     cursor: pointer;
 }
+@media (max-width:1400px) {
+
+}
+
+@media (max-width:768px) {
+    .myteam{
+        width: 110px;
+        height: 30px;
+        position: relative;
+        left: 20px;
+        top: 59px;
+    }
+    
+    .best-talent{
+        color: #FFF;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100px;
+        
+    }
+    
+    .talent{
+        color: #F67E7E;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100px;
+    }
+    
+    .decoration{
+        opacity: 0%;
+    }
+    
+    .expansion-talent{
+        font-size: 15px;
+        position: relative;
+        left: -80px;
+        top: 250px;
+        text-align: center;
+    }
+    .mobile-position{
+        position: relative;
+        bottom: 50px;
+        right: 30px;
+    }
+}
