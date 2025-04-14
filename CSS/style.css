@@ -206,6 +206,7 @@ font-size: 22px;
     line-height: 48px;
     top: 230px;
     left: 60px;
+text-align: left;
 }
 
 .red-text{
@@ -224,6 +225,7 @@ font-size: 22px;
     font-weight: 600;
     line-height: 25px;
     opacity: 0.8;
+    text-align: right;
 }
 
 .line2{
@@ -446,6 +448,9 @@ margin-right: auto;
 }
 
 .dark-line{
+    display: flex;
+}
+.myteam2{
 
 }
 
