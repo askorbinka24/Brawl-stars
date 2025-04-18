@@ -127,3 +127,161 @@ main{
     height: 253px;
     background-color: #012F34;
 }
+
+.fa-square-facebook:hover,.fa-pinterest:hover,.fa-twitter:hover{
+    color:#F67E7E;
+    cursor: pointer;
+}
+
+.copyright{
+    color: white;
+font-size: 16px;
+font-weight: 600;
+font-style: normal;
+line-height: 25px; 
+width: 300px;
+opacity: 0.6;
+left: 1200px;
+top: 70px;
+}
+
+.contacts1{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    width: 445px;
+    height: 100px;
+    opacity: 0.6;
+    left: 550px;
+    top: 110px;
+}
+
+.about2{
+
+}
+
+
+.readytogetstarted{
+    width: 1440px;
+height: 200px;
+flex-shrink: 0;
+background: #F67E7E;
+}
+
+
+.media{
+    left: 1300px;
+    bottom: 140px;
+    color: white;
+    height: 100px;
+    width: 500px;
+    font-size: 40px;
+
+}
+
+
+.button:hover{
+    border: 2px solid  #012F34;
+    color: white;
+    background: #012F34;
+}
+
+.red-line{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.dark-line{
+    display: flex;
+}
+.myteam2{
+
+}
+
+.tut{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100px;
+    color: #002529;
+}
+.button1{
+    text-align: center;
+}
+
+
+.copyright{
+    color: white;
+font-size: 16px;
+font-weight: 600;
+font-style: normal;
+line-height: 25px; 
+width: 300px;
+opacity: 0.6;
+left: 1200px;
+top: 70px;
+}
+
+.button:hover{
+    border: 2px solid  #012F34;
+    color: white;
+    background: #012F34;
+}
+
+.media{
+    left: 1300px;
+    bottom: 140px;
+    color: white;
+    height: 100px;
+    width: 500px;
+    font-size: 40px;
+
+}
+
+.photo,.photo2,.photo3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.home_stories{
+    text-align: center;
+}
+
+.contacts{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    width: 445px;
+    height: 100px;
+    opacity: 0.6;
+    left: 550px;
+    top: 110px;
+}
+
+.fa-square-facebook{
+    letter-spacing: 15px;
+}
+
+.fa-pinterest{
+    letter-spacing: 15px;
+}
+
+.fa-twitter{
+    letter-spacing: 15px;
+}
+
+.home_stories{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa-square-facebook:hover,.fa-pinterest:hover,.fa-twitter:hover{
+    color:#F67E7E;
+    cursor: pointer;
+}
