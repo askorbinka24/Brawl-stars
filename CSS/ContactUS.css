@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+     overflow-x: hidden;
+     height: 100%;
+  }
+
+  header{
+    background-color: #014e56;
+    width: 100vw;
+    height: 50vw;
+  }
+
+  .home{
+    text-decoration: none;
+    color: white;
+  }
+
+  .about{
+    text-decoration: none;
+    color: white;
+  }
+
+  .home:hover{
+    color: #F67E7E;
+}
+
+.about:hover{
+    color: #F67E7E;
+}
+
+.contact-us{
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    background-color:#014e56;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-us:hover{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    background-color:#002529;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 30vw;
+}
+
+.home2{
+    text-decoration: none;
+    color: white;
+}
+
+.about2{
+    text-decoration: none;
+    color: white;
+}
+
+.home2:hover{
+    color: #F67E7E;
+}
+
+.about2:hover{
+    color: #F67E7E;
+}
