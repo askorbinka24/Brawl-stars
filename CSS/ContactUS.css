@@ -1,205 +1,113 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0%;
-    border: 0%;
-    padding: 0%;
-     overflow-x: hidden;
-     height: 100%;
-  }
-
-  header{
-    background-color: #014e56;
-    width: 100vw;
-    height: 50vw;
-  }
-
-  .home{
-    text-decoration: none;
-    color: white;
-  }
-
-  .about{
-    text-decoration: none;
-    color: white;
-  }
-
-  .home:hover{
-    color: #F67E7E;
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
 }
 
-.about:hover{
-    color: #F67E7E;
+main{
+  height: 70%;
+  background-color:#014e56;
 }
 
-.contact-us{
-    width: 153px;
-    height: 48px;
-    border-radius: 24px;
-    border: 2px solid #FFF;
-    background-color:#014e56;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-}
-
-.contact-us:hover{
-    background-color: white;
-    color: black;
+header{
+  height: 10%;
+  background-color:#014e56;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 footer{
-    background-color:#002529;
-    overflow-x: hidden;
-    width: 100vw;
-    height: 50vw;
-}
-
-.home2{
-    text-decoration: none;
-    color: white;
-}
-
-.about2{
-    text-decoration: none;
-    color: white;
-}
-
-.home2:hover{
-    color: #F67E7E;
-}
-
-.about2:hover{
-    color: #F67E7E;
+  height: 30%;
+  background-color: #002529;
 }
 
 nav{
-   display: flex;
-   padding: 10px;
-   gap: 15px;
+  height: 20%;
+  width: 70vw;
+  position: absolute;
+  top: 50%;
+  display: inline-flex;
+  align-items: center;
+  gap: 6%;
 }
 
-.item{
-    padding: 10px 20px;
+.home-about-position{
+  display: inline-flex;
+  gap: 15%;
 }
 
-.last-item{
-    margin-left: auto;
-}
+ a{
+  text-decoration: none;
+  color: white;
+ }
 
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-  }
-  
-  .footer {
-    background-color: #002529;
-    color: white;
-    padding: 40px 0;
-  }
-  
-  .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .footer-brand {
-    flex: 1;
-    min-width: 200px;
-    margin-bottom: 20px;
-  }
-  
-  .footer-logo {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .footer-nav {
-    display: flex;
-    gap: 24px;
-  }
-  
-  .footer-nav a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .footer-nav a:hover {
-    color: #cccccc;
-  }
-  
+ .button-contact-us{
+  width: 70vw;
+  display: flex;
+  justify-content: end;
+ }
 
-  .footer-address {
-    flex: 1;
-    min-width: 200px;
-    color: #cccccc;
-    font-size: 14px;
-    margin-bottom: 20px;
-  }
-  
-  .footer-address p {
-    margin-bottom: 5px;
-  }
-  
-  .call-us {
-    margin-top: 15px;
-  }
-  
+ .contact-US{
+  width: 153px;
+  height: 48px;
+  border-radius: 24px;
+  border: 2px solid #FFF;
+  background-color:#014e56;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+ }
+
+ .home:hover{
+  color: #F67E7E;
+ }
  
-  .footer-social {
-    flex: 1;
-    min-width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  
-  .social-icons {
-    display: flex;
-    gap: 16px;
-  }
-  
-  .social-icons a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .social-icons a:hover {
-    color: #cccccc;
-  }
-  
-  .copyright {
-    font-size: 12px;
-    color: #cccccc;
-    margin-top: 30px;
-  }
-  
+ .about:hover{
+  color: #F67E7E;
+ }
 
-  @media (max-width: 768px) {
-    .footer-content {
-      flex-direction: column;
-    }
-    
-    .footer-social {
-      align-items: flex-start;
-      margin-top: 20px;
-    }
-    
-    .copyright {
-      margin-top: 20px;
-    }
-  }
+ .contact-US:hover{
+  background-color: white;
+  color: black;
+ }
+
+ .decoration1{
+  position: relative;
+  top: 20%;
+  display: inline-flex;
+  gap: 20%;
+ }
+
+ .main-text{
+  display: inline-block;
+  color: white;
+  font-size: 3em;
+  position: relative;
+ }
+
+ .red-main-text{
+  width: 27vw;
+  font-size: 0.7em;
+  position: absolute;
+  top: 45%;
+  color: #F67E7E;
+ }
+
+ .container{
+  position: relative;
+  top: 20%;
+  display: block;
+  gap: 20%;
+ }
+
+ .group11{
+  overflow: hidden;
+ }
+
+ .group12{
+  overflow: hidden;
+ }
+
+ .group13{
+  overflow: hidden;
+ }
