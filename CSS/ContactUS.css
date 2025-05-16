@@ -7,6 +7,7 @@ body{
 main{
   height: 70%;
   background-color:#014e56;
+  position: relative;
 }
 
 header{
@@ -110,4 +111,30 @@ nav{
 
  .group13{
   overflow: hidden;
+ }
+
+ .form-container{
+  position: absolute;
+  left: 60%;
+  width: 60vh;
+  height: 47vh;
+  overflow: hidden;
+ }
+
+ .form-style{
+  color: gray;
+ }
+
+ .input-style,textarea{
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  padding: 8px 0;
+  width: 100%;
+ }
+
+ .submit{
+  width: 22%;
+  height: 60px;
+  border-radius: 40%;
  }
