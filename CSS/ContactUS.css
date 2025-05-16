@@ -116,6 +116,7 @@ nav{
  .form-container{
   position: absolute;
   left: 60%;
+  bottom: 10%;
   width: 60vh;
   height: 47vh;
   overflow: hidden;
@@ -136,5 +137,14 @@ nav{
  .submit{
   width: 22%;
   height: 60px;
-  border-radius: 40%;
+  border-radius: 40px;
+ }
+
+ .icons{
+  width: 60vh;
+  height: 48vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
  }
