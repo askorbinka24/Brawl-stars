@@ -9,9 +9,10 @@
     background-color: #014e56;
   }
 
-  body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+  body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
   }
 
   main{
@@ -215,4 +216,31 @@
     .social-icons {
       justify-content: center;
     }
+  }
+
+  .home{
+    text-decoration: none;
+    color: white;
+  }
+
+  .about{
+    text-decoration: none;
+    color: white;
+  }
+
+  .contact-us{
+    border-radius: 20px;
+    width: 5%;
+    height: 20%;
+  }
+
+  .bottom333{
+    width: 100%;
+    height: 30%;
+  }
+
+  nav{
+    display: flex;
+    gap: 5px;
+    align-items: end;
   }
